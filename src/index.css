@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+}
+
+html, body, #root { height: 100%; }
+body { margin: 0; background: #05060f; color: #fff; overflow-x: hidden; }
+
+@keyframes chapterIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.chapter-in { animation: chapterIn 0.8s ease both; }
