@@ -8,8 +8,9 @@ export const experience = {
   tagline: 'Two kindred spirits. One day apart.',
   lines: ['Some moments deserve to be remembered differently.'],
   audio: {
-    ambient: '/audio/ambient/ambient.mp3',
-    cake: '/audio/cake/celebrate.mp3',
-    finale: '/audio/cake/celebrate.mp3',
+   ambient: `${import.meta.env.BASE_URL}audio/ambient/ambient.mp3`,
+   cake: `${import.meta.env.BASE_URL}audio/cake/celebrate.mp3`,
+   finale: `${import.meta.env.BASE_URL}audio/cake/celebrate.mp3`,
+
   },
 }

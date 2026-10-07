@@ -8,32 +8,32 @@ export interface Memory {
 
 export const memories: Memory[] = [
   {
-    src: '/assets-original/photos/memories/elias2.jpeg',
+    src: `${import.meta.env.BASE_URL}assets-original/photos/memories/elias2.jpeg`,
     date: 'ELIAS · 7 OCTOBER',
     caption: "A year older, and still the one who makes every day feel lighter.",
   },
   {
-    src: '/assets-original/photos/memories/elias1.jpeg',
+    src: `${import.meta.env.BASE_URL}assets-original/photos/memories/elias1.jpeg`,
     date: 'ELIAS · 7 OCTOBER',
     caption: "Here's to the laughter, the kindness, and everything good the new year holds.",
   },
   {
-    src: '/assets-original/photos/memories/both1.jpeg',
+    src: `${import.meta.env.BASE_URL}assets-original/photos/memories/both1.jpeg`,
     date: 'TOGETHER',
     caption: "Two kindred spirits, one frame, and birthdays just a day apart.",
   },
   {
-    src: '/assets-original/photos/memories/both2.jpeg',
+    src: `${import.meta.env.BASE_URL}assets-original/photos/memories/both2.jpeg`,
     date: 'TOGETHER',
     caption: "Different paths, the same joy whenever we are side by side.",
   },
   {
-    src: '/assets-original/photos/memories/virginia2.jpeg',
+    src: `${import.meta.env.BASE_URL}assets-original/photos/memories/virginia2.jpeg`,
     date: 'VIRGINIA · 8 OCTOBER',
     caption: "Grace, warmth, and a smile that changes the whole room.",
   },
   {
-    src: '/assets-original/photos/memories/virginia3.jpeg',
+    src: `${import.meta.env.BASE_URL}assets-original/photos/memories/virginia3.jpeg`,
     date: 'VIRGINIA · 8 OCTOBER',
     caption: "A new year, a new chapter, and so much beautiful ahead.",
   },
